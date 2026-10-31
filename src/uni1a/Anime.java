@@ -27,7 +27,7 @@ public class Anime extends ContenidoAudiovisual{
 	
 	public void mostrarTemporadas() {
 		System.out.println("Temporadas de este anime: ");
-		for (Temporada temporada : temporadas) { System.out.print(" - " + temporada); }
+		for (Temporada temporada : temporadas) { System.out.println("- " + temporada); }
 	} 
 	
 	@Override

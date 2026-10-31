@@ -40,7 +40,7 @@ public class Pelicula extends ContenidoAudiovisual {
     }
     
     public void mostrarActores() {
-    	System.out.println("Reparto de la peliculo: ");
+    	System.out.println("Reparto de la pelicula: ");
     	for (Actor actor : actores ) { System.out.println("- "	+ actor); }
     }
 }
