@@ -15,5 +15,29 @@ public class PruebaAudioVisual {
         for (ContenidoAudiovisual contenido : contenidos) {
             contenido.mostrarDetalles();
         }
+        
+        Pelicula pelicula = (Pelicula) contenidos[0];
+        
+        Actor actor1 = new Actor("Leonardo DiCaprio","Estadounidense");
+        Actor actor2 = new Actor("Matthew McConaughey","Estadounidense");
+        
+        pelicula.agregarActor(actor1);
+        pelicula.agregarActor(actor2);
+        pelicula.mostrarActores();
+        
+        SerieDeTV serie = (SerieDeTV) contenidos[1];
+        
+        serie.agregarTemporada(1, "Primera temporada", 10);
+        serie.agregarTemporada(2, "Segunda temporada", 12);
+        
+        serie.mostrarTemporadas();
+        
+        Documental documental = (Documental) contenidos[2];
+        
+        Investigador investigador = new Investigador ("Neil deGrasse Tyson","Astrofisica");
+        
+        documental.asignarInvestigador(investigador);
+        documental.mostrarInvestigador();
+        
     }
 }

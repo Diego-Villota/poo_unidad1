@@ -25,6 +25,6 @@ public class Temporada {
 	
 	@Override
 	public String toString() {
-		return "Temporada" + numero + ": " + titulo + " (" + cantidadEpisodios + " episodios)";
+		return "Temporada " + numero + ": " + titulo + " (" + cantidadEpisodios + " episodios)";
 	}
 }
