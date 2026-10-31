@@ -1,6 +1,6 @@
 # Sistema de Contenidos Audiovisuales — POO
 
-Proyecto académico en **Java** para la asignatura de **Programación Orientada a Objetos** de la **Universidad Politécnica Salesiana**. Se amplía un proyecto base de contenidos audiovisuales para practicar **herencia, polimorfismo, asociación y composición** mediante la creación y manipulación de objetos.
+Tarea correspondiente a la Unidad 2 en **Java** para la asignatura de **Programación Orientada a Objetos** de la **Universidad Politécnica Salesiana**. Se amplía un proyecto base de contenidos audiovisuales para practicar **herencia, polimorfismo, asociación y composición** mediante la creación y manipulación de objetos.
 
 ## Objetivo
 
