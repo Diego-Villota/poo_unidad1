@@ -2,7 +2,8 @@
  * Class SerieDeTV
  */
 package uni1a;
-
+import java.util.ArrayList;
+import java.util.List;
 // Subclase SerieDeTV que extiende de ContenidoAudiovisual
 public class SerieDeTV extends ContenidoAudiovisual {
     private int temporadas;
@@ -29,5 +30,19 @@ public class SerieDeTV extends ContenidoAudiovisual {
         System.out.println("Género: " + getGenero());
         System.out.println("Temporadas: " + this.temporadas);
         System.out.println();
+    }
+    
+    private List<Temporada> temporadas_1 = new ArrayList<>();
+    
+    public void agregarTemporada(int numero, String titulo, int episodios) {
+    	Temporada temporada = new Temporada(numero,titulo,episodios);
+    	temporadas_1.add(temporada);
+    }
+    
+    public void mostrarTemporadas() {
+    	System.out.println("Temporadas de la serie: ");
+    	for (Temporada temporada : temporadas_1) {
+    		System.out.println("- " + temporada);
+    	}
     }
 }

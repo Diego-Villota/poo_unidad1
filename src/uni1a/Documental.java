@@ -30,4 +30,18 @@ public class Documental extends ContenidoAudiovisual {
         System.out.println("Tema: " + this.tema);
         System.out.println();
     }
+    
+    private Investigador investigadorPrincipal;
+    
+    public void asignarInvestigador(Investigador investigador) {
+    	this.investigadorPrincipal = investigador;
+    }
+    
+    public void mostrarInvestigador() {
+    	if (investigadorPrincipal != null) {
+    		System.out.println("Investigador: " + investigadorPrincipal);
+    	}else {
+    		System.out.println("Sin investigador");
+    	}
+    }
 }
