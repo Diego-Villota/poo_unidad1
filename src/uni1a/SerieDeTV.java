@@ -21,17 +21,6 @@ public class SerieDeTV extends ContenidoAudiovisual {
         this.temporadas = temporadas;
     }
     
-    @Override
-    public void mostrarDetalles() {
-        System.out.println("Detalles de la película:");
-        System.out.println("ID: " + getId());
-        System.out.println("Título: " + getTitulo());
-        System.out.println("Duración en minutos: " + getDuracionEnMinutos());
-        System.out.println("Género: " + getGenero());
-        System.out.println("Temporadas: " + this.temporadas);
-        System.out.println();
-    }
-    
     private List<Temporada> temporadas_1 = new ArrayList<>();
     
     public void agregarTemporada(int numero, String titulo, int episodios) {
@@ -44,5 +33,15 @@ public class SerieDeTV extends ContenidoAudiovisual {
     	for (Temporada temporada : temporadas_1) {
     		System.out.println("- " + temporada);
     	}
+    }
+    @Override
+    public void mostrarDetalles() {
+        System.out.println("Detalles de la película:");
+        System.out.println("ID: " + getId());
+        System.out.println("Título: " + getTitulo());
+        System.out.println("Duración en minutos: " + getDuracionEnMinutos());
+        System.out.println("Género: " + getGenero());
+        System.out.println("Temporadas: " + this.temporadas);
+        System.out.println();
     }
 }
