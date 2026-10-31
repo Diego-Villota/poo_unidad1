@@ -103,7 +103,20 @@ Estas variables se crean en `PruebaAudioVisual.java` antes de ejecutar los méto
 
 En comparación con el proyecto base, se incorporaron:
 
+
+
 1. Las clases `Actor`, `Temporada` e `Investigador`, con sus relaciones con las clases originales.
 2. Las subclases `Anime` y `VideoEducativo`, con atributos, constructores y métodos propios.
 3. Relaciones adicionales de composición y asociación para las nuevas subclases.
 4. Pruebas de creación de objetos y de sus relaciones en el método `main`.
+
+## Diagramas UML
+
+### Etapa 3: Relaciones entre clases
+
+![Diagrama UML - Etapa 3](diagramas/UML_Etapa3.svg)
+
+### Etapa 4: Expansión con nuevas subclases
+
+![Diagrama UML - Etapa 4](diagramas/UML_Etapa4.svg)
+
